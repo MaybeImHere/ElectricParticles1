@@ -3,8 +3,8 @@ Simulates particles that attract and repel with an electrostatic force. There is
 
 Note that to change simulation parameters, you have to recompile (currently).
 
-- Simulation parameters:
-    - Program.cs
+Simulation parameters:
+	- Program.cs
 		- `dt`: Timestep of the simulation. Closer to 0 means more accurate but more computationally expensive.
 		- `particle_count`: Number of particles to be generated.
 		- `computation_multiplier`: How many times the particles are updated every frame.
