@@ -25,7 +25,7 @@ namespace Particles
         const double near_strength = .005;
         const double K = 2.0;
         const double force_field_strength = 2.0;
-        const double vel_damping = 0.9985;
+        const double vel_damping = 0.99991;
 
         public Particle(Vec2 pos)
         {
