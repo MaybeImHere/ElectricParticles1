@@ -11,9 +11,9 @@ namespace Particles
     internal static class Program
     {
 
-        const double dt = .001;
-        const int particle_count = 14;
-        const int computation_multiplier = 5;
+        const double dt = .0002;
+        const int particle_count = 80;
+        const int computation_multiplier = 8;
 
         static void Main(string[] args)
         {
@@ -29,7 +29,7 @@ namespace Particles
 
             for (int i = 0; i < particle_count; i++)
             {
-                particles.Add(new Particle(new Vec2(rand.NextDouble() * 4 - 2, rand.NextDouble() * 4 - 2), rand.NextDouble() * 2 - 1));
+                particles.Add(new Particle(new Vec2(rand.NextDouble() * 4 - 2, rand.NextDouble() * 4 - 2), rand.Next(2) * 2 - 1));
             }
 
             List<List<string>> data = new List<List<string>>();
