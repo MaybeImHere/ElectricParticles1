@@ -109,8 +109,8 @@ namespace Util
             return new Vector2f((float)x, (float)y);
         }
 
-        public static readonly Vec2 Zero = new Vec2();
-        public static readonly Vec2 One = new Vec2(1.0, 1.0);
+        public static readonly Vec2 Zero = new();
+        public static readonly Vec2 One = new(1.0, 1.0);
 
     }
 }
